@@ -4,7 +4,10 @@ import { RiMovieAiLine } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <header className="bg-blue-500 text-white p-4 flex justify-between items-center">
+    <header
+      className="fixed top-0 left-0 right-0 w-full z-50 backdrop-blur-md text-white p-4 flex justify-between items-center bg-blue-900 bg-opacity-50"
+      style={{ WebkitBackdropFilter: "blur(10px)", backdropFilter: "blur(10px)" }}
+    >
       <div className="flex items-center gap-2 text-xl font-bold">
         MERO CINEMA <RiMovieAiLine />
       </div>

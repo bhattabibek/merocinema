@@ -33,14 +33,14 @@ const Home = () => {
   return (
     <>
       <div>Home</div>
-      <form onSubmit={handleSearch}>
-        <input 
+      <form onSubmit={handleSearch} className='text-center items-center'>
+        <input className="border border-gray-300  px-4 py-2 text-base focus:outline-none focus:ring-2"
           type='text' 
           value={searchTerm} 
           onChange={(e) => setSearchTerm(e.target.value)} 
           placeholder='Search Movies Here' 
         />
-        <button type='submit'>Search</button>
+        <button className='bg-black text-white  p-2' type='submit'>Search</button>
       </form>
       <MovieListing />
     </>

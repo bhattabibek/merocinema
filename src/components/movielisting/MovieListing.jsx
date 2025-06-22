@@ -6,9 +6,10 @@ const MovieListing = () => {
 
   return (
     <>
+    <div className='flex flex-col items-center justify-center md:flex flex-row flex-wrap gap-4'>
       {movies && movies.Search && movies.Search.length > 0 ? (
         movies.Search.map((movie) => (
-          <div key={movie.imdbID}>
+          <div key={movie.imdbID} >
             <h1>{movie.Title}</h1>
             <h2>{movie.Year}</h2>
             <img 
@@ -20,6 +21,7 @@ const MovieListing = () => {
       ) : (
         <p>No movies found</p>
       )}
+      </div>
     </>
   );
 };
