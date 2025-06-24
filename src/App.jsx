@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.scss";
+import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/home/Home";
 import MovieDetail from "./components/moviedetail/MovieDetail";
@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 
 function App() {
   return (
+    <div className="quicksand-fonts">
     <Router>
       <Header />
       <Routes>
@@ -18,6 +19,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </div>
   );
 }
 
