@@ -1,4 +1,4 @@
-# 🎬 Movie Explorer App
+# 🎬 MERO CINEMA
 
 A responsive movie browsing web application that fetches real-time movie data from an external API. Users can search for movies by title, filter them by year, and view a clean list of matching results. Built with React and Redux Toolkit for efficient state management and a smooth user experience.
 
