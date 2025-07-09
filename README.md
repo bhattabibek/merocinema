@@ -1,12 +1,92 @@
-# React + Vite
+# 🎬 Movie Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie browsing web application that fetches real-time movie data from an external API. Users can search for movies by title, filter them by year, and view a clean list of matching results. Built with React and Redux Toolkit for efficient state management and a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
 
-## Expanding the ESLint configuration
+- 🔎 Search Movies by Title
+- 🗓️ Filter by Release Year
+- 🧠 State Management using Redux Toolkit
+- 📦 Fetches data from external Movie API
+- 📱 Fully Responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+- React
+- Redux Toolkit
+- Axios / Fetch
+- External Movie API (omdbapi.com)
+- Tailwind 
+
+---
+
+## 🖼️ Screenshots
+
+> *(Add actual screenshots or demo GIFs here)*  
+> ![Screenshot](link-to-image)
+
+---
+
+## 🚀 Live Demo
+
+🔗 [View Live App](https://your-live-demo-link.vercel.app)
+
+---
+
+## 🛠️ Getting Started
+
+### 📦 Install Dependencies
+
+```bash
+npm install
+🔑 Add Environment Variables
+Create a .env file in the root directory:
+
+env
+Copy
+Edit
+REACT_APP_MOVIE_API_KEY=your_api_key_here
+▶️ Run Locally
+bash
+Copy
+Edit
+npm start
+🗂️ Folder Structure
+css
+Copy
+Edit
+src/
+├── components/
+│   └── MovieCard.js
+├── features/
+│   └── movieSlice.js
+├── pages/
+│   └── Home.js
+├── redux/
+│   └── store.js
+├── App.js
+└── index.js
+✨ Future Improvements
+🌟 Pagination support
+
+📄 Movie detail pages
+
+💾 Favorite movie list (saved to localStorage)
+
+🌓 Dark mode toggle
+
+🔄 Debounced search input
+
+👨‍💻 About Me
+I'm a MERN stack developer with hands-on experience building responsive, real-world web applications using React, Redux, and external APIs. This project demonstrates my ability to work with live data, handle state globally, and deliver clean UI/UX.
+
+📧 Email: bhattabbk1@gmail.com
+🔗 LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/bibek-bhatta-51368b1b2/)
+
+
+📜 License
+This project is licensed under the MIT License.
