@@ -26,8 +26,10 @@ A responsive movie browsing web application that fetches real-time movie data fr
 
 ## 🖼️ Screenshots
 
-> *(Add actual screenshots or demo GIFs here)*  
-> ![Screenshot](link-to-image)
+<img width="1215" alt="merocinema-lg" src="https://github.com/user-attachments/assets/f8b61135-ebd1-422d-817d-951003ea946b" />
+<img width="560" alt="mero-cinema-tablet" src="https://github.com/user-attachments/assets/f6312589-fbeb-4cff-a622-dbd63dc50711" />
+<img width="465" alt="merocinema-mobile" src="https://github.com/user-attachments/assets/29cb43c3-1d28-4259-b18e-94c0755cfc8c" />
+
 
 ---
 
