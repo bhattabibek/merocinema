@@ -70,22 +70,19 @@ src/
 │   └── store.js
 ├── App.js
 └── index.js
+
 ✨ Future Improvements
 🌟 Pagination support
-
 📄 Movie detail pages
-
 💾 Favorite movie list (saved to localStorage)
-
 🌓 Dark mode toggle
-
 🔄 Debounced search input
 
 👨‍💻 About Me
 I'm a MERN stack developer with hands-on experience building responsive, real-world web applications using React, Redux, and external APIs. This project demonstrates my ability to work with live data, handle state globally, and deliver clean UI/UX.
 
 📧 Email: bhattabbk1@gmail.com
-🔗 LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/bibek-bhatta-51368b1b2/)
+🔗 LinkedIn:(https://www.linkedin.com/in/bibek-bhatta-51368b1b2/)
 
 
 📜 License
